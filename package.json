@@ -1,0 +1,22 @@
+{
+  "name": "hacktober-workshop",
+  "version": "0.1.0",
+  "description": "A simple workshop to learn a bit more about JS and Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raffaeldantass/hacktober-workshop.git"
+  },
+  "author": "Rafael Dantas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raffaeldantass/hacktober-workshop/issues"
+  },
+  "homepage": "https://github.com/raffaeldantass/hacktober-workshop#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
