@@ -11,7 +11,7 @@
 </head>
 <body>
   <nav class="navbar">
-    <input class="navbar__input" type="text" name="user-search" id="user-search">
+    <input class="navbar__input" type="text" name="user-search" id="user-search" aria-label="Input search">
     <button class="navbar__button" type="submit" onclick="searchUser()"> Pesquisar </button>
   </nav>
 
@@ -19,10 +19,10 @@
     <section class="profile-data">
       <img id="data-picture" class="profile-data__picture" src="https://scienceoxford.com/wp-content/uploads/2018/03/avatar-male.jpg" alt="avatar">
       <h1 class="space profile-data__name"> Nome: <span id="data-name"> </span> </h1>
-      <p class="space profile-data__email"> email: <span id="data-email"> </span> </p>
+      <p class="space profile-data__location"> Localização: <span id="data-location"> </span> </p>
     </section>
     <section class="repositories-data">
-      <p class="space repositories-data__paragraph"> Repositorios: <span id="data-repositorie"></span></p>
+      <p class="space repositories-data__paragraph"> Repositórios: <span id="data-repositorie"></span></p>
       <p class="space repositories-data__paragraph"> Seguindo:  <span id="data-following"></span></p>
       <p class="space repositories-data__paragraph"> Seguidores: <span id="data-followers"></span></p>
     </section>
