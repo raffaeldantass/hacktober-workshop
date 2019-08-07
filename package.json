@@ -4,7 +4,7 @@
   "description": "A simple workshop to learn a bit more about JS and Github",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server ./src"
   },
   "repository": {
     "type": "git",
